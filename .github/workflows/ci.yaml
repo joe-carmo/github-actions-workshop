@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     name: Push Verify
+    name: PR Verify
     runs-on: ubuntu-22.04
 
     steps:
