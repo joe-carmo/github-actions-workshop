@@ -1,4 +1,4 @@
-name: CI
+name: PR Verify
 on:
   pull_request:
     branches: ["main"]
@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: CI
-    uses: ./.github/workflows/reusable-build.yaml
+    name: PR Verify
+    uses: joe-carmo/joes-reusable-workflows/.github/workflows/reusable.yaml@main
     with:
       dotnet_version: 9.0.x
