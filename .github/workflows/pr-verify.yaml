@@ -1,4 +1,3 @@
-
 name: PR Verify
 
 on:
@@ -10,6 +9,5 @@ jobs:
   build:
     name: PR Verify
     uses: joe-carmo/joes-reusable-workflows/.github/workflows/reusable.yaml@main
-
     with:
       dotnet_version: 9.0.x
